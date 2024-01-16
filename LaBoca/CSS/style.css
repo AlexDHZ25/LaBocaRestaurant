@@ -55,6 +55,41 @@ body {
   padding-right: 20%;
 }
 
-.location{
-    padding: 10%;
+.location a{
+  text-decoration: none;
+  color: #844900;
+}
+.location a:hover{
+  text-decoration:underline;
+  color: #844900;
+}
+
+.location {
+  display: grid;
+  color: #844900;
+  font-family: "roca", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 80px;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  margin-top: 80px;
+  background-color: rgba(80, 80, 80, 0.342);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition-property: scale;
+  transition-timing-function: ease-out;
+}
+
+footer a:hover {
+  scale: 1.1;
+  transition-duration: 0.2s;
 }
