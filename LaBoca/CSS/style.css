@@ -93,3 +93,32 @@ footer a:hover {
   scale: 1.1;
   transition-duration: 0.2s;
 }
+
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  gap: 15px;
+  font-family: "roca", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.contact-form div{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-rest{
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.menu-rest img{
+  height: 100vh;
+}
